@@ -13,6 +13,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textResultado"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -39,6 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
+        android:onClick="gerarNovaFrase"
         android:text="Nova Frase"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
